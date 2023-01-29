@@ -1,0 +1,6 @@
+installed dependencies:
+axios:
+yup:
+React Hook Form:
+React Icons:
+React router
