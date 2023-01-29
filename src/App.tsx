@@ -6,10 +6,7 @@ function App() {
    <Router>
     <Routes>
       <Route path="/" element={<Initiative/>} />
-      {/* <Route path="*" element={<Team/>} />
-      <Route path="*" element={<Contact/>} />
-      <Route path="*" element={<News/>} /> */}
-
+     
     </Routes>
    </Router>
   );
