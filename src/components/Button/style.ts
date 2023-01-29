@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { IButtonStyled } from "./types";
+import { device } from "../../styles/device";
 
 export const ButtonContainer = styled.button<IButtonStyled>`
     background: transparent;
@@ -8,9 +9,11 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     position: relative;
     min-width: 120px;
     height: 33px;
-    font-size: 24px;
+    font-size: 32px;
+    border: none;
 
 
+     
     ${({ variant }) => // color change button when not primary
       variant !== "primary" &&
       css`
@@ -18,7 +21,6 @@ export const ButtonContainer = styled.button<IButtonStyled>`
         height: 33px;
         color: #ffffff;
 
-        background: transparent;
         &:hover {
           opacity: 0.8;
           cursor: pointer;
@@ -32,5 +34,6 @@ export const ButtonContainer = styled.button<IButtonStyled>`
           height: calc(100% + 10px);
           border-radius: 22px;
         }
+
       `}
 `;

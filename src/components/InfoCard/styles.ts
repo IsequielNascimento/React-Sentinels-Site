@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import React from "react";
+import { device } from "../../styles/device";
 
 export const InfoContainer = styled.div`
+
   width: 600px;
   height: 400px;
   background-color: #191a1e;
@@ -11,7 +13,9 @@ export const InfoContainer = styled.div`
   text-align: left;
 `;
 
+
 export const Text = styled.p`
+
   text-indent: 16px;
   font-size: 22px;
   font-weight: normal;
@@ -19,4 +23,6 @@ export const Text = styled.p`
   margin-left: 8px;
   white-space: pre-line;
   line-height: 1.1;
+ 
+
 `;

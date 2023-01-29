@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { device } from "../../styles/device";
 
 export const Container = styled.div`
+
   width: 100%;
   max-width: 80%;
   height: 100%;
@@ -9,20 +11,29 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+ 
+
+
 `;
 
 export const Wrapper = styled.div`
   width: 100%;
   height: 124px;
   display: flex;
+  displa-direction: column;
   justify-content: center;
   align-items: center;
 `;
 export const Row = styled.div`
+
+
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: end;
-  width: 100%;
+
+
+ 
 `;
 
 export const Menu = styled.div`
@@ -39,6 +50,6 @@ export const LogoPic = styled.img`
 
 export const Line = styled.div`
   margin-top: 10px;
-  
 
+ 
 `;
