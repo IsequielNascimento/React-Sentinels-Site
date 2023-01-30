@@ -23,6 +23,8 @@ export const Wrapper = styled.div`
   displa-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+ 
 `;
 export const Row = styled.div`
 

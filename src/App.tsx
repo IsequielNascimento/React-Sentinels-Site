@@ -6,8 +6,8 @@ function App() {
   return (
    <Router>
     <Routes>
-      <Route path="/" element={<Initiative/>} />
-      <Route path="/" element={<Team/>} />
+      <Route path="/initiative" element={<Initiative/>} />
+      <Route path="/team" element={<Team/>} />
     </Routes>
    </Router>
   );

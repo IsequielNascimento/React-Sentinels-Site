@@ -8,7 +8,7 @@ export const Initiative = () => {
   return (
     <>
       < Header />
-      
+    
     <Container>
     <Row>
       <InfoCard/>

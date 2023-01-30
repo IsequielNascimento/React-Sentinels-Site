@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { device } from "../../styles/device";
 
-export const Container = styled.main`
-  width: 100%;
+export const Container = styled.main`  width: 100%;
   max-width: 80%;
   height: 100%;
   margin: 0 auto;
@@ -13,7 +12,7 @@ export const Container = styled.main`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid white;
+  
 
 `;
 export const Row = styled.div`
@@ -29,7 +28,8 @@ export const Row = styled.div`
 `;
 
 export const Leader = styled.img`
-  border: green solid 1px;
+  
   width: 390px;
   height: 360px;
 `;
+
