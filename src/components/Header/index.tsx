@@ -9,7 +9,7 @@ export const Header = () => {
   const navigate = useNavigate();
 
   const HandleClickInitiative = () => {
-    navigate("/initiative");
+    navigate("/");
     
   }
   const HandleClickTeam = () => {

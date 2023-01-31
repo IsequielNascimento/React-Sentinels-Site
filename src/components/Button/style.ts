@@ -9,7 +9,7 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     position: relative;
     min-width: 120px;
     height: 33px;
-    font-size: 32px;
+    font-size: 34px;
     border: none;
 
 

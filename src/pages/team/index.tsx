@@ -1,8 +1,18 @@
-
+import {useNavigate} from "react-router-dom";
 import { Header } from "../../components/Header";
 import { Card, CardDescription, Container, InfoContainer, Row } from "./styles";
 
 export const Team = () => {
+ 
+
+    const navigate = useNavigate();
+
+    const HandleClickActiveHeroes = () => {
+      navigate("/activeHeroes"); 
+    } 
+    const HandleClicInactiveHeroes = () => {
+      navigate("/inactiveHeroes"); 
+    } 
   return (
     <>
       <Header />
@@ -10,8 +20,8 @@ export const Team = () => {
       
       <Container>
         <Row>
-          <Card>Active Heroes</Card>
-          <Card>Inative Heroes</Card>
+          <Card onClick={HandleClickActiveHeroes}>Active Heroes</Card>
+          <Card onClick={HandleClicInactiveHeroes}>Inative Heroes</Card>
         </Row>
         <InfoContainer>
           <CardDescription>
