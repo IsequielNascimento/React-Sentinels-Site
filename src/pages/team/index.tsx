@@ -21,7 +21,7 @@ export const Team = () => {
       <Container>
         <Row>
           <Card onClick={HandleClickActiveHeroes}>Active Heroes</Card>
-          <Card onClick={HandleClicInactiveHeroes}>Inative Heroes</Card>
+          <Card onClick={HandleClicInactiveHeroes}>Inactive Heroes</Card>
         </Row>
         <InfoContainer>
           <CardDescription>
