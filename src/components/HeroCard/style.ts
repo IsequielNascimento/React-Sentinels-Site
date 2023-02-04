@@ -8,6 +8,7 @@ export const HeroCardContainer = styled.div`
   justify-content: center;
   max-width: 100%;
 
+
   margin: 32px 0;
   background-color: #191a1e;
   border-radius: 32px;
@@ -24,6 +25,7 @@ export const HeroCardContainer = styled.div`
 export const HeroCardImage = styled.img`
   min-width: 30%;
   min-height: 50%;
+  max-height: 100%;
   max-width: 100%;
   border-radius: 360px;
 
@@ -45,7 +47,7 @@ export const HeroCardText = styled.p`
   text-indent: 32px;
   text-align: left;
   white-space: pre-wrap;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding: 16px;
   margin: 0 auto;
   
@@ -79,15 +81,16 @@ export const HeroCardText = styled.p`
 export const HeroCardTitle = styled.h1`
   
   margin: 0 auto;
+  font-size: 1.8rem;
   @media ${device.laptopL} {
-    font-size: 20px;
+    font-size: 1.6rem;
 
   }
 
 @media ${device.laptop} {
   
     
-    font-size: 16px;
+    font-size: 1.2rem;
     
   }
 

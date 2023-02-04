@@ -11,7 +11,7 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     height: 33px;
     font-size: 34px;
     border: none;
-
+    margin-bottom: 16px;
   @media ${device.tablet} {
     min-width: 60px;
     height: 12px;
@@ -21,8 +21,12 @@ export const ButtonContainer = styled.button<IButtonStyled>`
   }
 
   @media ${device.mobileL} {
-    font-size: 20px;
-    padding: 16px;
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+  @media ${device.mobileS} {
+    font-size: 1rem;
+    padding: 4px;
   }
      
     ${({ variant }) => // color change button when not primary

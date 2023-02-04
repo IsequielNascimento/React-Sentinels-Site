@@ -18,9 +18,7 @@ export const Header = () => {
 
  
   }
-  const HandleClickContact = () => {
-    navigate("/contact");
-  }
+ 
   const HandleClickNews = () => {
     navigate("/news");
     
@@ -36,9 +34,8 @@ export const Header = () => {
             <LogoPic src={logo} alt="Sentinels Logo" />
             <Menu>
               <Button title="Initiative" variant= "primary" onClick={HandleClickInitiative}/>
-              <Button title="Team" variant= "secondary" onClick={HandleClickTeam} />
-              <Button title="Contact" variant="secondary" onClick={HandleClickContact}/>
-              <Button title="News" variant="secondary" onClick={HandleClickNews}/>
+              <Button title="Team" variant= "primary" onClick={HandleClickTeam} />
+              <Button title="News" variant="primary" onClick={HandleClickNews}/>
             </Menu>
           </Row>
         </Container>

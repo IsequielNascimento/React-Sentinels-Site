@@ -1,0 +1,11 @@
+import React from 'react';
+import Container from "./styles";
+
+@media query {
+    @media (max-width: 426px) {
+        Container {
+        max-width: 4px;
+        }
+        }
+    }
+}

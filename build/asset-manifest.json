@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.7fd077c5.js",
+    "main.js": "/static/js/main.fb7b451a.js",
     "static/media/Arjuna.svg": "/static/media/Arjuna.725ab3e85211a7f38151fc920e536775.svg",
     "static/media/Latrel.png": "/static/media/Latrel.6efa07f50ff49f737bfc.png",
     "static/media/Arcia.png": "/static/media/Arcia.705699782eac60c24247.png",
@@ -11,9 +11,9 @@
     "static/media/Fail.png": "/static/media/Fail.67d3a3f3ca0876c7b581.png",
     "static/media/logo.png": "/static/media/logo.9135b52e65f140bb3c3c.png",
     "index.html": "/index.html",
-    "main.7fd077c5.js.map": "/static/js/main.7fd077c5.js.map"
+    "main.fb7b451a.js.map": "/static/js/main.fb7b451a.js.map"
   },
   "entrypoints": [
-    "static/js/main.7fd077c5.js"
+    "static/js/main.fb7b451a.js"
   ]
 }

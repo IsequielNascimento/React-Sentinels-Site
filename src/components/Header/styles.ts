@@ -12,6 +12,10 @@ export const Container = styled.div`
   align-items: center;
   margin: 0 auto;
  
+  @media ${device.tablet} {
+    max-width: 80%;
+    justify-content: center;
+  }
 
 
 `;
