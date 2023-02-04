@@ -12,7 +12,18 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     font-size: 34px;
     border: none;
 
+  @media ${device.tablet} {
+    min-width: 60px;
+    height: 12px;
+    font-size: 28px;
+    margin-top: 16px;
+    padding: 2px;
+  }
 
+  @media ${device.mobileL} {
+    font-size: 20px;
+    padding: 16px;
+  }
      
     ${({ variant }) => // color change button when not primary
       variant !== "primary" &&

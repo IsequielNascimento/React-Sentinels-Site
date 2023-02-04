@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   width: 100%;
   max-width: 80%;
-  height: 100%;
+
 
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 124px;
   display: flex;
-  displa-direction: column;
+  display-direction: column;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -34,14 +34,27 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: end;
 
+  @media ${device.tablet} {
+    flex-direction: column;
+    max-width: 90%;
 
+    align-items: center;
+    
+   
+  }
  
 `;
 
 export const Menu = styled.div`
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
+  
+
+  @media ${device.tablet} {
+    justify-content: space-between;
+  }
 `;
 
 export const LogoPic = styled.img`
@@ -53,5 +66,7 @@ export const LogoPic = styled.img`
 export const Line = styled.div`
   margin-top: 10px;
 
- 
+ @media ${device.tablet} {
+   margin-top: 25px;
+ }
 `;
