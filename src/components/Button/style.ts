@@ -27,7 +27,7 @@ export const ButtonContainer = styled.button<IButtonStyled>`
   }
 
   @media ${device.mobileL} {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 12px;
   }
   @media ${device.mobileS} {
