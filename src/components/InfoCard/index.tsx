@@ -5,7 +5,7 @@ export const InfoCard = () => {
   return (
     <InfoContainer>
       <Text>
-        A Iniciativa Sentinela, criada por Jayce, Latrel, Bato e até então
+        A Iniciativa Sentinela, criada por Jace, Latrel, Bato e até então
         administrada pelo Sr. Latrel, tem como objetivo acolher e guiar heróis
         de idades diversas, bem como combater o crime. Sendo uma organização
         filantrópica brasileira, atua tanto no país de origem quanto no mundo

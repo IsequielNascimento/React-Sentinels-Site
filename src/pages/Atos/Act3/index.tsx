@@ -1,25 +1,29 @@
 import { Header } from "../../../components/Header";
-import { Container, Content, Image, Title, Text} from "./styles";
-import vilao from "../../../assets/Villains/Vilao.png";
+import { Container, Content, Image, Title, Text } from "./styles";
+import mitsura from "../../../assets/ActiveHeroes/Mitsura.png";
 
-
-const Act1: React.FC = () => {
-    return (
-        <>
-        <Header />
+const Act2: React.FC = () => {
+  return (
+    <>
+      <Header />
       <Container>
         <Content>
-          <Title>EM CONSTRUÇÃO - a criação da Iniciativa Sentinelas, uma rede de comunicação entre os heróis do mundo, uma espécie de rede social dos heróis</Title>
+          <Title>
+            EM CONSTRUÇÃO - evolução para Organização Sentinelas, deixei de ser
+            apenas uma rede de comunicação para uma organização filiada aos
+            governos e grandes empresas do mundo, gerando trabalhos e lucros.
+          </Title>
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
             arcu id purus feugiat dictum. Duis tristique tortor nunc, ut aliquet
             ipsum consequat vel. Nullam posuere commodo elit. Duis fermentum, mi
-            vitae tristique tristique, nunc nulla commodo velit, eget luctus enim
-            ipsum sed magna. Morbi sem elit, tincidunt eget erat ac, eleifend
-            iaculis tellus. Vivamus fringilla, massa non pellentesque laoreet,
-            sapien nibh auctor libero, nec facilisis lorem velit ut purus.
+            vitae tristique tristique, nunc nulla commodo velit, eget luctus
+            enim ipsum sed magna. Morbi sem elit, tincidunt eget erat ac,
+            eleifend iaculis tellus. Vivamus fringilla, massa non pellentesque
+            laoreet, sapien nibh auctor libero, nec facilisis lorem velit ut
+            purus.
           </Text>
-          <Image src={vilao} alt="Imagem da landing page" />
+          <Image src={mitsura} alt="Imagem da landing page" />
           <Text>
             Nullam efficitur, risus eu aliquet luctus, purus mi bibendum dolor,
             vitae vehicula lacus mi eget velit. Proin sit amet faucibus ipsum.
@@ -33,8 +37,8 @@ const Act1: React.FC = () => {
           </Text>
         </Content>
       </Container>
-      </>
-    );
-  };
-  
-  export default Act1;
+    </>
+  );
+};
+
+export default Act2;

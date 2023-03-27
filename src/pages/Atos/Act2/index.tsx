@@ -1,15 +1,13 @@
 import { Header } from "../../../components/Header";
 import { Container, Content, Image, Title, Text} from "./styles";
-import vilao from "../../../assets/Villains/Vilao.png";
-
-
-const Act1: React.FC = () => {
+import virgil from "../../../assets/InactiveHeroes/Virgil.png";
+const Act2: React.FC = () => {
     return (
         <>
         <Header />
       <Container>
         <Content>
-          <Title>EM CONSTRUÇÃO - a criação da Iniciativa Sentinelas, uma rede de comunicação entre os heróis do mundo, uma espécie de rede social dos heróis</Title>
+          <Title>EM CONSTRUÇÃO - a formação do grupo de heróis Os Sentinelas</Title>
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
             arcu id purus feugiat dictum. Duis tristique tortor nunc, ut aliquet
@@ -19,7 +17,7 @@ const Act1: React.FC = () => {
             iaculis tellus. Vivamus fringilla, massa non pellentesque laoreet,
             sapien nibh auctor libero, nec facilisis lorem velit ut purus.
           </Text>
-          <Image src={vilao} alt="Imagem da landing page" />
+          <Image src={virgil} alt="Imagem da landing page" />
           <Text>
             Nullam efficitur, risus eu aliquet luctus, purus mi bibendum dolor,
             vitae vehicula lacus mi eget velit. Proin sit amet faucibus ipsum.
@@ -37,4 +35,4 @@ const Act1: React.FC = () => {
     );
   };
   
-  export default Act1;
+  export default Act2;

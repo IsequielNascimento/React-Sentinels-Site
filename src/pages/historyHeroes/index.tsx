@@ -10,14 +10,20 @@ export const HistoryHeroes = () => {
   const HandleClickAct1 = () => {
     navigate("/Atos/Act1"); 
   } 
+  const HandleClickAct2 = () => {
+    navigate("/Atos/Act2"); 
+  } 
+  const HandleClickAct3 = () => {
+    navigate("/Atos/Act3"); 
+  } 
 
   return (
     <>
     <Header />
     <Container>
       <Button onClick={HandleClickAct1}>Ato 1</Button>
-      <Button>Ato 2</Button>
-      <Button>Ato 3</Button>
+      <Button onClick={HandleClickAct2}>Ato 2</Button>
+      <Button onClick={HandleClickAct3}>Ato 3</Button>
     </Container>
     </>
   );

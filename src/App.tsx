@@ -6,6 +6,8 @@ import { InactiveHeroes } from './pages/inactiveHeroes';
 import { News } from './pages/news';
 import {HistoryHeroes} from './pages/historyHeroes';
 import Act1 from './pages/Atos/Act1';
+import Act2 from './pages/Atos/Act2';
+import Act3 from './pages/Atos/Act3';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
       <Route path="/historyHeroes" element={<HistoryHeroes/>} />
       <Route path="/news" element={<News/>} />
 
-       
+       {/* Rota dos Atos */}
       <Route path="/Atos/Act1" element={<Act1/>} />
+      <Route path="/Atos/Act2" element={<Act2/>} />
+      <Route path="/Atos/Act3" element={<Act3/>} />
     </Routes>
    </Router>
   );
