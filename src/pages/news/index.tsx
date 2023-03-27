@@ -12,9 +12,22 @@ export const News = () => {
       <Header />
       <Container>
         <Column>
-          <NewsCard src={fire} text={"Fighting breaks out during the party that would make peace between the species official, chaos, destruction and blood is all we know so far. May our heroes once again save us from the end."} />
-          <NewsCard src={reunion} text={"Earth leaders, heroes, and Gnxtha meet tonight."} />
-          <NewsCard src={fail}text={"Mesmo após o fim da guerra, ainda há pequenos conflitos entre ambas as partes, heróis trabalham arduamente para um cessar fogo completo, ainda essa noite haverá a oficialização do tratado de paz entre os líderes da terra e Gnxtha."}  />
+          <NewsCard
+            src={fire}
+            text={
+              "A luta que oficializaria a paz entre as espécies, o caos, a destruição e o sangue é tudo o que sabemos até agora. Que nossos heróis nos salvem mais uma vez do fim"
+            }
+          />
+          <NewsCard
+            src={reunion}
+            text={"Os líderes da Terra, heróis e Gnxtha se encontram esta noite."}
+          />
+          <NewsCard
+            src={fail}
+            text={
+              "Mesmo após o fim da guerra, ainda há pequenos conflitos entre ambas as partes, heróis trabalham arduamente para um cessar fogo completo, ainda essa noite haverá a oficialização do tratado de paz entre os líderes da terra e Gnxtha."
+            }
+          />
         </Column>
       </Container>
     </>

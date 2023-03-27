@@ -4,25 +4,29 @@ import { Column, Container } from "./styles";
 import python from "../../assets/InactiveHeroes/Python.svg";
 import arjuna from "../../assets/InactiveHeroes/Arjuna.svg";
 export const InactiveHeroes = () => {
-    return (
-      <>
-        <Header />
-        
-        <Container>
-          <Column>
-          
-          <HeroCard
-          title={"Name: ???? - Codename: Codename: Python"} 
-          text={"Birth: Unknow, possibly Brazil. He joined the Sentinels during the first years of the initiative, he had no special powers, just the knowledge about technology, he was alwas with his suit and after the loss of one of his arms in a mission, he started to improve the suit by creating other modes for it. Unfortunately Python died in combat on a mission to stop Klaus, but thanks to his sacrifice others were able to escape to live to complete the mission and contiue the Sentinels Initiative."} 
-          src={python}/>    
-  
-          <HeroCard 
-          title={"Name: Arjuna Shankar - Codename: Guardian"} 
-          text={"Born in Nashik - India. He had a short stay with the Sentinels, serving as a messenger of a war in the future after being warned by a mythical being that the bow used by Arjuna also belonged to him. On his first mission he faced a being that attacked a local blood bank. The reasons are not known, but Arjuna has disbanded from the Sentinels and his whereabouts are unknown."}
-          src={arjuna}/>
+  return (
+    <>
+      <Header />
 
-       </Column>   
-        </Container>
-      </>
-    );
-  };
+      <Container>
+        <Column>
+          <HeroCard
+            title={"Nome: ???? - CodeNome: CodeNome: Python"}
+            text={
+              "Nascimento: Desconhecido, possivelmente o Brasil. Ele se juntou aos Sentinelas durante os primeiros anos da iniciativa, ele não tinha poderes especiais, apenas o conhecimento sobre tecnologia, estava sempre com seu terno e após a perda de um de seus braços em uma missão, ele começou a melhorar o terno criando outras modalidades para ele. Infelizmente Python morreu em combate em uma missão para deter Klaus, mas graças a seu sacrifício, outros puderam escapar para viver para completar a missão e continuar a Iniciativa Sentinelas"
+            }
+            src={python}
+          />
+
+          <HeroCard
+            title={"Nome: Arjuna Shankar - CodeNome: Guardian"}
+            text={
+              "Nascido em Nashik - Índia. Ele teve uma breve estadia com as Sentinelas, servindo como mensageiro de uma guerra no futuro, depois de ser avisado por um ser mítico que o arco usado por Arjuna também lhe pertencia. Em sua primeira missão, ele enfrentou um ser que atacou um banco de sangue local. As razões não são conhecidas, mas Arjuna se desvinculou das Sentinelas e seu paradeiro é desconhecido"
+            }
+            src={arjuna}
+          />
+        </Column>
+      </Container>
+    </>
+  );
+};

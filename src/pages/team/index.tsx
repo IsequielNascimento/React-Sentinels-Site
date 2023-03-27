@@ -1,38 +1,35 @@
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/Header";
 import { Card, CardDescription, Container, InfoContainer, Row } from "./styles";
 
 export const Team = () => {
- 
+  const navigate = useNavigate();
 
-    const navigate = useNavigate();
-
-    const HandleClickActiveHeroes = () => {
-      navigate("/activeHeroes"); 
-    } 
-    const HandleClicInactiveHeroes = () => {
-      navigate("/inactiveHeroes"); 
-    } 
+  const HandleClickActiveHeroes = () => {
+    navigate("/activeHeroes");
+  };
+  const HandleClicInactiveHeroes = () => {
+    navigate("/inactiveHeroes");
+  };
   return (
     <>
       <Header />
-        
-      
+
       <Container>
         <Row>
-          <Card onClick={HandleClickActiveHeroes}>Active Heroes</Card>
-          <Card onClick={HandleClicInactiveHeroes}>Inactive Heroes</Card>
+          <Card onClick={HandleClickActiveHeroes}>Heróis Ativos</Card>
+          <Card onClick={HandleClicInactiveHeroes}>Heróis Desligados</Card>
         </Row>
         <InfoContainer>
           <CardDescription>
-            Numerous heroes have passed through the IS since its inception,
-            there are numerous reasons why a hero is disconnected from the
-            initiative, most of the time they are disconnected, not for failure
-            to comply with an order, failure in duty or breach of the law, but
-            for dying protecting the defenseless. Despite the dangers, new and
-            new heroes assume the responsibility to protect humanity, the
-            responsibility to become a symbol of hope, as is the case of the
-            current team, formed by the new Leonnardo, Arcia, Mitsura
+            Inúmeros heróis passaram pela Iniciativa Sentinela desde o seu
+            início. Há diversas razões pelas quais um herói pode se desconectar
+            da iniciativa. Na maioria das vezes, eles são desligados não por
+            falha em cumprir uma ordem, em cumprir o dever ou por violação da
+            lei, mas por terem morrido protegendo os indefesos. Apesar dos
+            perigos, novos heróis assumem a responsabilidade de proteger a
+            humanidade e de se tornar um símbolo de esperança, como é o caso da
+            equipe atual, formada pelo novo Leonardo, Arcia e Mitsura.
           </CardDescription>
         </InfoContainer>
       </Container>

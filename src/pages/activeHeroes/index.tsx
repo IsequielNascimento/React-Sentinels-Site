@@ -9,25 +9,30 @@ export const ActiveHeroes = () => {
   return (
     <>
       <Header />
-      
+
       <Container>
         <Column>
-        
-        <HeroCard
-        title={"Name: Arcia Rinslet - Codename: Bullet"} 
-        text={"Born in Kangaamiut - Greenland. Joined the Sentinels at the age of 20 after completing her training with the Silver Maidens, always carries with her a cursed long-range weapon capable of both inflicting damage on enemies and healing allies, as strange as this last part may seem. He possesses a remarkable stamina in counterbalance to his speed. As one of the newest members of the sentinels, his first mission was to invade a Gnxtha army spaceship as part of the distraction team."} 
-        src={arcia}/>    
+          <HeroCard
+            title={"Nome: Arcia Rinslet - CodeNome: Bullet"}
+            text={
+              "Nascida em Kangaamiut - Groenlândia. Juntou-se às Sentinelas aos 20 anos de idade após completar seu treinamento com as Silver Maidens, sempre traz consigo uma maldita arma de longo alcance capaz tanto de infligir danos aos inimigos como de curar aliados, por mais estranha que esta última parte possa parecer. Ele possui uma notável resistência em contrapeso à sua velocidade. Como um dos mais novos membros das sentinelas, sua primeira missão foi invadir uma nave espacial do exército Gnxtha como parte da equipe de distração."}
+            src={arcia}
+          />
 
-        <HeroCard 
-        title={"Name: Leonnardo Rodriguez - Codename: Blue Eyes"} 
-        text={"Born in Curitiba - Brazil.  He grew up and lived in an orphanage until the beginning of his life as an adult, when he was involved in a tragic accident that resulted in him being the only survivor, before joining the Sentinels, he had as a mentor AqueJett whose powers were similar to his, although he only uses Ice and Mist, his real power includes the manipulation of water molecules in all their physical states. He has magic circles in shades of blue in place of the iris of his eyes, giving him microscopic vision, and he can create a kind of shared vision between allies."}
-        src={leo}/>
+          <HeroCard
+            title={"Nome: Leonnardo Rodriguez - CodeNome: Blue Eyes"}
+            text={
+              "Nascido em Curitiba - Brasil.  Ele cresceu e viveu em um orfanato até o início de sua vida como adulto, quando se envolveu em um trágico acidente que resultou em ele ser o único sobrevivente, antes de se juntar às Sentinelas, ele teve como mentor AqueJett cujos poderes eram semelhantes aos seus, embora ele só usa Ice and Mist, seu verdadeiro poder inclui a manipulação de moléculas de água em todos os seus estados físicos. Ele tem círculos mágicos em tons de azul no lugar da íris de seus olhos, dando-lhe uma visão microscópica, e ele pode criar uma espécie de visão compartilhada entre os aliados"            }
+            src={leo}
+          />
 
-<HeroCard 
-        title={"Name: Latrel - Codename: ???"} 
-        text={"Current leader of the Sentinels, whose powers involve nano-technology and emotion manipulation."}
-        src={latrel}/>
-     </Column>   
+          <HeroCard
+            title={"Nome: Latrel - CodeNome: ???"}
+            text={
+              "Líder atual das Sentinelas, cujos poderes envolvem nano-tecnologia e manipulação de emoções"            }
+            src={latrel}
+          />
+        </Column>
       </Container>
     </>
   );

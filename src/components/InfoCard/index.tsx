@@ -5,19 +5,20 @@ export const InfoCard = () => {
   return (
     <InfoContainer>
       <Text>
-        The Sentinel Initiative, created by Jayce, Latrel, Bato and until then
-        managed by Mr. Latrel, aims to welcome and guide heroes of various ages,
-        as well as fighting crime. Being a Brazilian philanthropic organization,
-        it acts in the country of origin and all over the world, being one of
-        the main defenses of humanity and also one of the main forces in the
-        fight against super-villains.
+        A Iniciativa Sentinela, criada por Jayce, Latrel, Bato e até então
+        administrada pelo Sr. Latrel, tem como objetivo acolher e guiar heróis
+        de idades diversas, bem como combater o crime. Sendo uma organização
+        filantrópica brasileira, atua tanto no país de origem quanto no mundo
+        todo, sendo uma das principais formas de defesa da humanidade e também
+        uma das principais forças de combate aos super vilões.
       </Text>
       <Text>
-        The initiative started after the tragic end of one of the greatest
-        heroes ever, Sunshine, who was one of the first forces to fight
-        super-villains along with the F.E.A.S. His legacy has been maintained by
-        Latrel and his group of heroes, despite the ups and downs, they are
-        always in the front line seeking a better life for humanity.
+      A iniciativa teve
+        início após o trágico fim de um dos maiores heróis que já existiu,
+        Sunshine, que foi uma das primeiras forças de combate aos super vilões
+        juntamente com o F.E.A.S. Seu legado vem sendo mantido por Latrel e seu
+        grupo de heróis, apesar dos altos e baixos, eles sempre estão na linha
+        de frente buscando uma vida melhor para a humanidade.
       </Text>
     </InfoContainer>
   );

@@ -23,7 +23,10 @@ export const Header = () => {
     navigate("/news");
     
   }
-
+  const HandleClickHistory = () => {
+    navigate("/historyHeroes");
+    
+  }
 
 
   return (
@@ -33,9 +36,10 @@ export const Header = () => {
           <Row>
             <LogoPic src={logo} alt="Sentinels Logo" />
             <Menu>
-              <Button title="Initiative" variant= "primary" onClick={HandleClickInitiative}/>
-              <Button title="Team" variant= "primary" onClick={HandleClickTeam} />
-              <Button title="News" variant="primary" onClick={HandleClickNews}/>
+              <Button title="Iniciativa" variant= "primary" onClick={HandleClickInitiative}/>
+              <Button title="Equipe" variant= "primary" onClick={HandleClickTeam} />
+              <Button title="Notícias" variant="primary" onClick={HandleClickNews}/>
+              <Button title="História" variant="primary" onClick={HandleClickHistory}/>
             </Menu>
           </Row>
         </Container>
