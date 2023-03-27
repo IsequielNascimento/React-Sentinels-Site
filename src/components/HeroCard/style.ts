@@ -75,7 +75,7 @@ export const HeroCardText = styled.p`
   }
 
   @media ${device.mobileS} {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 `;
 export const HeroCardTitle = styled.h1`

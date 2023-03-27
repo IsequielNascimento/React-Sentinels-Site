@@ -22,7 +22,7 @@ export const ActiveHeroes = () => {
           <HeroCard
             title={"Nome: Leonnardo Rodriguez - CodeNome: Blue Eyes"}
             text={
-              "Nascido em Curitiba - Brasil.  Ele cresceu e viveu em um orfanato até o início de sua vida como adulto, quando se envolveu em um trágico acidente que resultou em ele ser o único sobrevivente, antes de se juntar às Sentinelas, ele teve como mentor AqueJett cujos poderes eram semelhantes aos seus, embora ele só usa Ice and Mist, seu verdadeiro poder inclui a manipulação de moléculas de água em todos os seus estados físicos. Ele tem círculos mágicos em tons de azul no lugar da íris de seus olhos, dando-lhe uma visão microscópica, e ele pode criar uma espécie de visão compartilhada entre os aliados"            }
+              "Nascido em Curitiba - Brasil.  Ele cresceu e viveu em um orfanato até o início de sua vida como adulto, quando se envolveu em um trágico acidente que resultou em ele ser o único sobrevivente, antes de se juntar às Sentinelas, ele teve como mentor AqueJett cujos poderes eram semelhantes aos seus. Ele tem círculos mágicos em tons de azul no lugar da íris de seus olhos, dando-lhe uma visão microscópica, e ele pode criar uma espécie de visão compartilhada entre os aliados"            }
             src={leo}
           />
 
