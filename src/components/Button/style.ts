@@ -12,6 +12,12 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     font-size: 34px;
     border: none;
     margin-bottom: 16px;
+    &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+
+  }
+    
   @media ${device.tablet} {
     min-width: 60px;
     height: 12px;
