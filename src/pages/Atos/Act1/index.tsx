@@ -8,13 +8,6 @@ const Act1: React.FC = () => {
       <Header />
       <Container>
         <Content>
-          <Title>
-            EM CONSTRUÇÃO - a criação da Iniciativa Sentinelas, uma rede de
-            comunicação entre os heróis do mundo, uma espécie de rede social dos
-            heróis
-          </Title>
-          <br />
-          <br />
           <Title>A queda de Sun Shine</Title>
           <br />
           <Text>
@@ -112,7 +105,7 @@ const Act1: React.FC = () => {
             seus próprios planos.
           </Text>
           <Text>
-            Sr L retornou para o grupo dos Sentinelas, e eles descobriram um dos
+              Sr L retornou para o grupo dos Sentinelas, e eles descobriram um dos
             esconderijos dos Imperadores. Durante a batalha que se seguiu, com a
             morte de dois heróis, eles enfrentaram um dos líderes dos vilões, o
             Imperador Frio. A esperança começou a renascer nas pessoas e os
