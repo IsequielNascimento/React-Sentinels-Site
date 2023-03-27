@@ -8,7 +8,7 @@ const Act1: React.FC = () => {
       <Header />
       <Container>
         <Content>
-          <Title>A queda de Sun Shine</Title>
+          <Title>A Queda de Sun Shine</Title>
           <br />
           <Text>
             No começo de 2025, quatro robôs gigantes caíram em capitais de
